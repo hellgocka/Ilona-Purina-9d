@@ -1,0 +1,28 @@
+//#include<iostream>
+//using namespace std;
+//int main() {
+//	int i = 0;
+//	do {i++;
+//	cout << i;
+//	cout << i << " ";
+//	cout << i * i << endl;
+//
+//	} while (i < 10);
+//}
+int main() {
+
+
+		// Local variable declaration:
+
+		string myname;
+
+		// do loop execution
+
+		do {
+
+			cout < "Enter my name " << endl;
+			cin >> myname;
+			if (myname == "no")(cout << "yes!"; );
+		} while (myname != "Ilona");
+
+			return 0;

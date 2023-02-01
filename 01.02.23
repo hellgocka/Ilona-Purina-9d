@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	int a1, a2;
+	cin >> a1 >> a2;
+	if (a1 > a2)cout << "pirmais skaitlis ir maksimalais, otrais minimals" << endl;
+	else cout << "pirmais skaitlis ir mini, otrais max"<< endl;
+
+	if (a1 > 0)cout << "pirmais skaitlis ir pozitivs"<< endl;
+	else cout << "pirmajs skaitlis maz par 0" << endl;
+	if(a2>0)cout << "otrais skaitlis ir pozitivs" << endl;
+	else cout << "otrais skaitlis maz par 0" << endl;
+	if (a1 % 2 == 0)cout << "pirmais skaitlis ir para"<< endl;
+	else cout << "pirmais skaitlis nav paris" << endl;
+		if (a2 % 2 ==0)cout << "otrais skaitlis ir para"<<endl;
+		else cout << "otrais skaitlis nav para";
+
+		
+}
